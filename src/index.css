@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    cursor: default;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+h4{
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  .navbar{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #706f6f;
+    width: 100%;
+    background-color: #111111;
+    box-shadow: 0 5px 6px -2px #07c4c4a6;
+    border-top: 1px solid black;
+  }
+
+  .footer{
+    height: 30px;
+    background-color: #111111;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 6px 1px #07c4c4a6;
+    font-size: 8px;
+  }
+
+  .home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .title{
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    text-shadow: 3px 3px rgb(209, 171, 0);
+    letter-spacing: 1px;
+  }
+
+  .navLink{
+    color: rgb(0, 216, 216);
+    text-decoration: none;
+  }
+
+.imgDiv{
+    margin: 40px;
+    width: 750px;
+    height: 400px;
+    background-image: url('https://wallpapercrafter.com/th800/9656-planets-galaxy-stars-space-universe-4k.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.imgDiv > span{
+    margin-top: 70px;
+    font-weight: 600;
+    text-shadow: 2px 2px #706f6f;
+}
+
+
+.homeButton > button{
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffe600;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+.homeButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -65px;
+    text-decoration: none;
+
+}
+
+.about{
+    margin: 100px;
+    margin-top: 120px;
+    background-color: #111111;
+    height: 350PX;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    padding: 20px;
+}
+
+.about p{
+    margin-top: 35px;
+    line-height: 25px;
+}
+
+.planetCards{
+    margin-top: 15px;
+    width: 165px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    border-radius: 10px;
+}
+
+.planetCards a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px #000000;
+}
+
+.planets{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.planetDetails{
+    background-color: #111111;
+    margin: 150px 200px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    height: 260px;
+}
+
+.planetDetails h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #ffe600;
+    text-shadow: 1px 1px #000000;
+}
+
+.details{
+    margin-left: 25px;
+}
+
+.detailButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.planetDetails button{
+    background-color: rgb(0, 197, 197);
+    padding: 5px;
+    width: fit-content;
+    height: 25px;
+    border-radius: 7px;
+    color: white;
+    text-shadow: 1px 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout{
+    margin: 50px;
+}
+
+.form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.submit{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #ffe600;
+    cursor: pointer;
+    color: #000000;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.input{
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input:focus{
+    background-color: rgba(0, 255, 255, 0.658);
+}
+
+.checkoutBack{
+    background-color: rgb(0, 197, 197);
+    width: 60px;
+    height: 22px;
+    border-radius: 7px;
+    color: white;
+    text-shadow: 1px 1px #000000;
+}
+
+.confirm{
+    background-color: #111111;
+    box-shadow: 0px 0px 7px 1px #07c4c4d8 ;
+    border-radius: 15px;
+    margin: 120px 150px 0 150px;
+}
+
+.confirmInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.confirmButtons button{
+    background-color: rgb(0, 197, 197);
+    width: 60px;
+    height: 22px;
+    border-radius: 7px;
+    color: white;
+    text-shadow: 1px 1px #000000;
+}
+
+@media only screen and (min-width: 1480px){
+    .imgDiv{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 1200px;
+        height: 500px;
+    }
+
+    .about{
+        margin-left:500px ;
+        margin-right: 500px;
+        height: 550px;
+    }
+
+    .about p{
+        margin-top: 40px;
+        padding: 20px;
+        line-height: 30px;
+    }
+
+    .planetDetails{
+        margin-left:650px ;
+        margin-right: 650px;
+        padding-left: 25px;
+        height: 300px;
+    }
+
+    .planets{
+        margin-left: 500px;
+        margin-right: 500px;
+        gap: 60px;
+    }
+
+    .planetCards{
+        font-size: large;
+        width: 170px;
+        height: 110px;
+    }
+
+    .confirm{
+        margin: 100px 600px 0 600px
+    }
+}
