@@ -103,6 +103,8 @@ h4{
 
 .homeButton > button{
     width: 130px;
+    width: fit-content;
+    padding: 10px;
     height: 50px;
     border-radius: 15px;
     background-color: #ffe600;
@@ -110,6 +112,7 @@ h4{
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 1px 1px white;
+    color: #000000;
 }
 
 .homeButton{
