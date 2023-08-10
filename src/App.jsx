@@ -19,7 +19,7 @@ function App() {
           <Link className='navLink' to='/about'>About</Link>
         </nav>
 
-        <footer className='footer'>Created by Tyler Ferre</footer>
+        {/* <footer className='footer'>Created by Tyler Ferre</footer> */}
 
         <Routes>
           <Route path='/' element={<Home/>} />

@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { context } from "../ContextProvider";
 
 
-const Planets = (props) =>{
+const Planets = () =>{
 
     const contextData = useContext(context)
 
